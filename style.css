@@ -1,0 +1,74 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Container for content */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Main content area */
+main {
+    font-size: 18px;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 1.5em;
+}
+
+/* Link styling */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0052a3;
+    text-decoration: underline;
+}
+
+/* Contact email styling */
+.contact {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 40px 15px;
+    }
+
+    main {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 30px 10px;
+    }
+
+    main {
+        font-size: 15px;
+    }
+}
